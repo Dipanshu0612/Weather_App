@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Exo 2";
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo-2 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.mainbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.main {
+  flex-direction: column;
+  height: 50vh;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+.footer{
+  width: 100%;
+  position: absolute;
+  top: 88%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.865);
+  font-family: "Bebas Neue";
+}
+.footico{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 6rem;
+}
+.footico a{
+  font-size: large;
+  text-decoration: none;
+  padding: 0.5rem;
+
+}
+.footico i{
+  color: rgba(255, 255, 255, 0.737);
+  font-size: 2rem;;
+}
+.footico i:hover{
+  color: rgba(255, 255, 255, 0.957);
+}
+.bg-image {
+    overflow: visible;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+}
+.input_button {
+  background-color: transparent;
+  top: 10%;
+  left: auto;
+  position: absolute;
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input_button input {
+  width: 25rem;
+  height: 2.1rem;
+  padding: 2%;
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
+.input_button button {
+  height: 2rem;
+  padding: 0% 2.7%;
+  /* border-radius: 20px; */
+}
+.jumb {
+  height: 25rem;
+  width: 70rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.739);
+  border: 1px solid black;
+  padding: 2px 2rem;
+}
+.fb1 {
+  display: flex;
+  /* flex-wrap: wrap-reverse; */
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 20rem;
+  width: 20rem;
+  /* border: 1px solid black; */
+  border-radius: 2%;
+  padding: 2rem;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.706);
+}
+.fb1 h1 {
+  margin-top: 1rem;
+}
+.fb1 h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+.fb2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 20rem;
+  width: 40rem;
+  /* border: 1px solid black; */
+  background-color: rgba(255, 255, 255, 0.813) !important;
+}
+.weather_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 10rem;
+  background: #dcd9d98f;
+  border-radius: 10%;
+}
+.weather_icon img {
+  display: inherit;
+  position: inherit;
+  height: 10rem;
+  width: 8rem;
+}
+.city_info {
+  font-size: 2rem;
+}
+.state_info {
+  font-size: 1.5rem;
+}
+
+.fb3 {
+  width: 38rem;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
+  margin: 1rem 2rem;
+}
+.fb4 {
+  width: 38rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+
+.fb31 {
+  text-align: center;
+  border-radius: 10px;
+  width: 12rem;
+  height: 100%;
+  padding-top: 1rem;
+  margin: 1% 1%;
+  background: #dcd9d98f;
+}
+.fb32 {
+  width: 24rem;
+  background: #dcd9d98f;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 1rem;
+  font-style: italic;
+}
+.fb4sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1%;
+  width: 90%;
+  height: 100%;
+  font-style: italic;
+  border-radius: 10%;
+  /* border: 1px solid black; */
+  background: #dcd9d98f;
+}
+.temp {
+  font-size: 5rem;
+}
+
+.fb32 h3 {
+  font-size: larger;
+}
