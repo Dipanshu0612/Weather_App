@@ -47,7 +47,7 @@ const searchCity = async() => {
         if(result.current.condition.text == "Sunny" || result.current.condition.text == "Clear"){
             icon.src = "./images/clear.png";
         }
-        else if(result.current.condition.text == "Partly cloudy"){
+        else if(result.current.condition.text == "Partly Cloudy"){
             icon.src = "./images/clouds.png";
         }
         else if(result.current.condition.text == "Cloudy"){
